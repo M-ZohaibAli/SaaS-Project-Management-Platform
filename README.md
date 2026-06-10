@@ -16,24 +16,24 @@ Built with React 19, TypeScript, Tailwind CSS 4, and Vite on the frontend, with 
 
 <table>
   <tr>
-    <td align="center"><img src="img/screenshot-1.jpg" alt="Dashboard" width="400" /><br/><em>Dashboard</em></td>
-    <td align="center"><img src="img/screenshot-2.jpg" alt="Kanban Board" width="400" /><br/><em>Kanban Board</em></td>
+    <td align="center"><img src="img/dashboard.jpg" alt="Dashboard" width="400" /><br/><em>Dashboard</em></td>
+    <td align="center"><img src="img/projects.jpg" alt="Projects" width="400" /><br/><em>Projects</em></td>
   </tr>
   <tr>
-    <td align="center"><img src="img/screenshot-3.jpg" alt="Projects View" width="400" /><br/><em>Projects View</em></td>
-    <td align="center"><img src="img/screenshot-4.jpg" alt="Task Detail" width="400" /><br/><em>Task Detail</em></td>
+    <td align="center"><img src="img/kanban.jpg" alt="Kanban Board" width="400" /><br/><em>Kanban Board</em></td>
+    <td align="center"><img src="img/notes.jpg" alt="Notes" width="400" /><br/><em>Notes</em></td>
   </tr>
   <tr>
-    <td align="center"><img src="img/screenshot-5.jpg" alt="Team Management" width="400" /><br/><em>Team Management</em></td>
-    <td align="center"><img src="img/screenshot-6.jpg" alt="Analytics" width="400" /><br/><em>Analytics</em></td>
+    <td align="center"><img src="img/calendar.jpg" alt="Calendar" width="400" /><br/><em>Calendar</em></td>
+    <td align="center"><img src="img/team.jpg" alt="Team" width="400" /><br/><em>Team</em></td>
   </tr>
   <tr>
-    <td align="center"><img src="img/screenshot-7.jpg" alt="Notes" width="400" /><br/><em>Notes</em></td>
-    <td align="center"><img src="img/screenshot-8.jpg" alt="Calendar" width="400" /><br/><em>Calendar</em></td>
+    <td align="center"><img src="img/analytics.jpg" alt="Analytics" width="400" /><br/><em>Analytics</em></td>
+    <td align="center"><img src="img/files.jpg" alt="Files" width="400" /><br/><em>Files</em></td>
   </tr>
   <tr>
-    <td align="center"><img src="img/screenshot-9.jpg" alt="Activity Feed" width="400" /><br/><em>Activity Feed</em></td>
-    <td align="center"><img src="img/screenshot-10.jpg" alt="Settings" width="400" /><br/><em>Settings</em></td>
+    <td align="center"><img src="img/activity.jpg" alt="Activity" width="400" /><br/><em>Activity</em></td>
+    <td align="center"><img src="img/settings.jpg" alt="Settings" width="400" /><br/><em>Settings</em></td>
   </tr>
 </table>
 
