@@ -1,0 +1,25 @@
+name: OrbitDesk CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=high
+      - run: npm run build
+      - run: npx vitest run tests/unit
+      - run: npx jest tests/api --runInBand
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test tests/e2e --project=chromium
+      - run: docker build -t orbitdesk-web .

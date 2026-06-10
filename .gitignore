@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+Thumbs.db
+prisma/client/
+coverage/
+.vite/
+playwright-report/
+test-results/
